@@ -38,6 +38,4 @@ module PolishCalculator (Stack : StackAbs) =
 																| Mul  -> op1 *. op2
 																| Div  -> op1 /. op2
 																| Pow  -> op1 ** op2
-													 
-
 	end;;
